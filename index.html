@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="pages/index.css"> 
+  <title>Места России</title> 
+</head> 
+<body> 
+  <div class="page"> 
+    <header class="header"> 
+      <img src="images/logo.svg" class="header__logo" alt="логотип">
+    </header> 
+    <main class="content"> 
+      <section class="profile"> 
+        <div class="profile__info">
+          <img src="images/avatar.jpg" class="profile__avatar" alt="аватарка">
+          <div class="profile__text">
+            <p><span class="profile__name">Жак-Ив Кусто</span>
+            <a href="" class="profile__edit-button">
+              <img src="images/edit-button.svg" class="profile__image-button">
+            </a></p>
+            <p class="profile__activity">Исследователь океана</p>
+          </div>
+          
+        </div>
+        <a href="" class="profile__add-button">+</a>
+      </section> <!--end profile--> 
+      
+      <section class="elements"> 
+        <div class="element">
+          <img src="images/element__gelengik.jpg" class="element__image" alt="Геленджик. Аквапарк 'Золотая бухта'">
+          <div class="element__info">
+            <p class="element__text" title="Геленджик. Аквапарк 'Золотая бухта'">Геленджик. Аквапарк "Золотая бухта"</p>
+            <a href="" class="element__like"><img src="images/group.svg" alt="иконка like в виде сердечка"></a>
+          </div>
+        </div> 
+        <div class="element">
+          <img src="images/element__krim.jpg" class="element__image" alt="Крым. Ласточкино гнездо">
+          <div class="element__info">
+            <p class="element__text" title="Крым.Ласточкино гнездо">Крым. Ласточкино гнездо</p>
+            <a href="" class="element__like"><img src="images/group.svg" alt="иконка like в виде сердечка"></a>
+          </div>
+        </div> 
+        <div class="element">
+          <img src="images/element__moscow.jpg" class="element__image" alt="Москва.Москва-Сити">
+          <div class="element__info">
+            <p class="element__text" title="Москва.Москва-Сити">Москва.Москва-Сити</p>
+            <a href="" class="element__like"><img src="images/group.svg" alt="иконка like в виде сердечка"></a>
+          </div>
+        </div> 
+        <div class="element">
+          <img src="images/element__s-p.jpg" class="element__image" alt="Санкт-Петербург. Спас на крови">
+          <div class="element__info">
+            <p class="element__text" title="Санкт-Петербург. Спас на крови">Санкт-Петербург. Спас на крови</p>
+            <a href="" class="element__like"><img src="images/group.svg" alt="иконка like в виде сердечка"></a>
+          </div>
+        </div> 
+        <div class="element">
+          <img src="images/element_elbrus.jpg" class="element__image" alt="Кавказ. Эльбрус">
+          <div class="element__info">
+            <p class="element__text" title="Кавказ. Эльбрус">Кавказ. Эльбрус</p>
+            <a href="" class="element__like"><img src="images/group.svg" alt="иконка like в виде сердечка"></a>
+          </div>
+        </div> 
+        <div class="element">
+          <img src="images/element_sebirian.jpg" class="element__image" alt="Сибирь. Жарки в лесу">
+          <div class="element__info">
+            <p class="element__text" title="Сибирь. Жарки в лесу">Сибирь. Жарки в лесу</p>
+            <a href="" class="element__like"><img src="images/group.svg" alt="иконка like в виде сердечка"></a>
+          </div>
+        </div> 
+      </section><!--end elements--> 
+    </main><!--end content--> 
+    <footer class="footer"> 
+      <p class="footer__copyright">&copy; 2020 Mesto Russia</p> 
+    </footer><!--end footer--> 
+  </div><!--end page--> 
+  <div class="popup">
+    <div class="popup__overlay"></div>
+    <form class="popup__container">
+        <a href="" class="popup__close-button"><img src="images/close-icon.png" alt="кнопка закрыть"></a>
+        <p class="popup__title">Редактировать профиль</p>
+        <input type="text" required value="" class="popup__field-name" autocomplete="off">
+        <input type="text" required value="" class="popup__field-activity" autocomplete="off">
+        <button class="popup__submit-button">Cохранить</button>  
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+</body> 
+</html> 

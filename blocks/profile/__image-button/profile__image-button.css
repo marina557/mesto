@@ -1,0 +1,8 @@
+.profile__image-button {
+  width: 24px;
+  height: 24px;
+}
+
+.profile__image-button:hover {
+  opacity: 0.6;
+}
