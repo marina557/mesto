@@ -5,9 +5,13 @@
   background-image: url(../../../images/group.svg);
   background-color: transparent;
   border: none;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .element__like:focus {
   outline: none;
+}
+
+.element__like:hover {
+  opacity: 0.4;
 }
