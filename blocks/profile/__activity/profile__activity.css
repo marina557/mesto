@@ -2,11 +2,16 @@
   font-size: 18px;
   line-height: 1.22;
   margin: 0;
+  text-overflow: ellipsis;
+  max-width: 318px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 @media (max-width: 650px){
   .profile__activity {
     font-size: 14px;
     line-height: 17px;
+    max-width: 280px;
   }
 }

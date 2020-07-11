@@ -20,7 +20,6 @@
 @media (max-width: 650px){
     .elements{
       grid-template-columns: repeat(1, 1fr);
-      max-width: calc(100vw - 38px);
       }
 
 }

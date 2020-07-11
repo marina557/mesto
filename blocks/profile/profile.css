@@ -1,7 +1,8 @@
 @import url(__info/profile__info.css);
 @import url(__avatar/profile__avatar.css);
+@import url(__name-container/profile__name-container.css);
 @import url(__name/profile__name.css);
-@import url(__image-button/profile__image-button.css);
+@import url(__edit-button/profile__edit-button.css);
 @import url(__activity/profile__activity.css);
 @import url(__add-button/profile__add-button.css);
 
@@ -23,7 +24,12 @@
 
 @media (max-width:650px){
   .profile{
-    max-width: calc(100vw - 38px);
     flex-direction: column;
+  }
+}
+
+@media (max-width:320px){
+  .profile{
+    max-width: calc(100vw - 10px);
   }
 }

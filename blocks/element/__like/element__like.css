@@ -1,0 +1,13 @@
+.element__like {
+  max-width: 21px;
+  height: 18px;
+  width: 100%;
+  background-image: url(../../../images/group.svg);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.element__like:focus {
+  outline: none;
+}

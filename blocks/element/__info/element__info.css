@@ -2,7 +2,7 @@
   color: #000;
   border-radius: 0 10px;
   align-items: center;
-  margin: 0 15px 0 20px;
+  margin: 25px 15px 31px 20px;
   display: grid;
   grid-template-columns: 1fr 24px;
 }
